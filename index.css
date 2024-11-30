@@ -1,0 +1,107 @@
+body{
+    background-image: url("pattern.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100%vh;
+}
+
+
+.container {
+    background-color: rgb(59, 181, 197);
+    width: 300px;
+    margin: auto;
+    height: auto;
+    margin-top: 300px;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgb(25, 175, 212);
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+#increment-btn {
+    background-color: rgb(2, 159, 187);
+    
+    
+}
+
+#increment-btn:hover {
+    background-color: rgb(4, 118, 138);
+    
+}
+
+#increment-btn:active {
+    background-color: rgb(2, 68, 80);
+    
+}
+
+#save-btn {
+    background-color: rgb(185, 22, 136);
+    
+
+}
+
+#save-btn:hover {
+    background-color: rgb(138, 17, 101);
+}
+
+
+#save-btn:active {
+    background-color: rgb(66, 10, 49);
+}
+
+
+#decrease-btn {
+    background-color: rgb(2, 159, 187);
+}
+
+#decrease-btn:hover {
+    background-color: rgb(7, 98, 114);
+}
+
+#decrease-btn:active {
+    background-color: rgb(2, 68, 80);
+}
+
+#save-el {
+    padding: 10px;
+}
+
+#reset-btn {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+#reset-btn:hover {
+    background: rgb(49, 49, 49);
+ 
+}
+
+#reset-btn:active {
+    background: rgb(17, 17, 17);
+ 
+}
